@@ -2,17 +2,17 @@ import React from "react";
 
 const Card = () => {
   return (
-    <div className="flex -translate-x-40 mt-8">
-      <div className="text-white">
+    <div className="flex flex-col sm:flex-row sm:-translate-x-40 mt-8 items-center sm:items-start">
+      <div className="text-white text-center sm:text-left">
         <div>
-          <h1 className="my-5 font-medium tracking-tight text-2xl">
+          <h1 className="my-5 font-medium tracking-tight text-2xl sm:text-3xl">
             darshil prajapti
           </h1>
           <p className="text-base tracking-tight font-extralight">
             20, dropout. improving
           </p>
         </div>
-        <div className="text-sm font-thin mt-12 flex gap-3">
+        <div className="text-sm font-thin mt-12 flex justify-center sm:justify-start gap-3">
           <a
             target="_blank"
             href="https://github.com/darshil-here"

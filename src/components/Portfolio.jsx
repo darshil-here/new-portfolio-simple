@@ -2,12 +2,12 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <div className="flex -translate-x-32 mt-14">
-      <div className="text-white text-base font-thin flex flex-col gap-3">
+    <div className="flex flex-col sm:flex-row sm:-translate-x-32 mt-14 items-center sm:items-start">
+      <div className="text-white text-base font-thin flex flex-col gap-3 text-center sm:text-left">
         <a
           target="_blank"
           href="https://color-change-react-proj.netlify.app/"
-          className="flex items-center gap-2 hover:underline underline-offset-2 font-light"
+          className="flex items-center gap-2 hover:underline underline-offset-2 font-light justify-center sm:justify-start"
         >
           <svg
             width="12"
@@ -26,7 +26,7 @@ const Portfolio = () => {
         <a
           target="_blank"
           href="https://random-password-gen-react.netlify.app/"
-          className="flex items-center gap-2 hover:underline underline-offset-2 font-light"
+          className="flex items-center gap-2 hover:underline underline-offset-2 font-light justify-center sm:justify-start"
         >
           <svg
             width="12"
